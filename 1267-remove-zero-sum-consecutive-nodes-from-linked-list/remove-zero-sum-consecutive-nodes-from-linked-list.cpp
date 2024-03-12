@@ -12,48 +12,26 @@ class Solution {
 public:
     ListNode* removeZeroSumSublists(ListNode* head) {
 
-        vector<int> v;
-        ListNode* temp = head;
+        ListNode * node = new ListNode(0,head);
+        ListNode * temp = node;
+        int prefix = 0;
+        unordered_map<int,ListNode*> m;
 
-        while (temp) {
-            v.push_back(temp->val);
+        while(temp){
+            prefix += temp->val;
+            m[prefix] = temp;
             temp = temp->next;
         }
 
-        unordered_set<int> ans;
+        prefix = 0;
+        temp = node;
 
-        for (int i = 0; i < v.size(); i++) {
-            int sum = 0;
-
-            for (int j = i; j < v.size(); j++) {
-                sum += v[j];
-
-                if (sum == 0) {
-                    for (int k = i; k <= j; k++)
-                        ans.insert(k);
-                    i = j + 1;
-                }
-            }
+        while(temp){
+            prefix += temp->val;
+            temp->next = m[prefix]->next;
+            temp = temp->next;
         }
-        vector<int> res;
-        for (int i = 0; i < v.size(); i++) {
-            if (ans.count(i) == 0)
-                res.push_back(v[i]);
-        }
-
-        if (res.size() == 0)
-            return nullptr;
-
-        ListNode* node = new ListNode();
-        head = node;
-
-        for (int i = 0; i < res.size(); i++) {
-            node->val = res[i];
-            if (i != res.size() - 1) {
-                node->next = new ListNode();
-                node = node->next;
-            }
-        }
-        return head;
+        
+        return node->next;
     }
 };
