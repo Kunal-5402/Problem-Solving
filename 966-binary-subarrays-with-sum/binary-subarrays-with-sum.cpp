@@ -1,39 +1,27 @@
 class Solution {
 public:
-    int numSubarraysWithSum(vector<int>& nums, int k) {
-        // int s = 0;
-        // int e = 0;
-        // int sum = 0;
-        // int count = 0;
+    int numSubarraysWithSum(vector<int>& nums, int goal) {
 
-        // while(e < nums.size()){
-        //     sum += nums[e];
+        auto atmostK = [&](int k){
+            int s = 0;
+            int e = 0;
+            int sum = 0;
+            int count = 0;
 
-        //     if(sum == goal)
-        //         count++;
-            
-        //     if(sum > goal){
-        //         while(sum > goal){
-        //             sum -= nums[s];
-        //             s++;
-        //         }
-        //     }
+            while (e < nums.size()) {
+                sum += nums[e];
 
-        //     e++;
-        // }
+                while (s <= e and sum > k) {
+                    sum -= nums[s];
+                    s++;
+                }
+                count += (e - s + 1);
+                e++;
+            }
 
-        // return count;
-        unordered_map<int,int> map;
-        
-        int sum = 0, result = 0;
-        map[sum] = 1;
-        
-        for (int n : nums) {
-            sum += n;
-            result += map[sum - k];
-            map[sum]++;
-        }
-    
-        return result;
+            return count;
+        };
+
+        return atmostK(goal) - atmostK(goal-1);
     }
 };
