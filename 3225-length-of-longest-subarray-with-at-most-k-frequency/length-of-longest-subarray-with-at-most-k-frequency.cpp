@@ -15,14 +15,11 @@ public:
                 m[nums[s]]--;
                 s++;
             }
+            
             e++;
             ans = max(ans, e - s);
         }
 
-        for(auto it: m){
-            cout<<it.first<<" "<<it.second<<endl;
-            // ans += it.second;
-        }
         return ans;
     }
 };
