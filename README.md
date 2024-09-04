@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0624-maximum-distance-in-arrays](https://github.com/Kunal-5402/Problem-Solving/tree/master/0624-maximum-distance-in-arrays) |
+| [0906-walking-robot-simulation](https://github.com/Kunal-5402/Problem-Solving/tree/master/0906-walking-robot-simulation) |
 | [1325-path-with-maximum-probability](https://github.com/Kunal-5402/Problem-Solving/tree/master/1325-path-with-maximum-probability) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Kunal-5402/Problem-Solving/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Kunal-5402/Problem-Solving/tree/master/2132-convert-1d-array-into-2d-array) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0906-walking-robot-simulation](https://github.com/Kunal-5402/Problem-Solving/tree/master/0906-walking-robot-simulation) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Kunal-5402/Problem-Solving/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Kunal-5402/Problem-Solving/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Kunal-5402/Problem-Solving/tree/master/2132-convert-1d-array-into-2d-array) |
@@ -65,4 +67,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Kunal-5402/Problem-Solving/tree/master/2076-sum-of-digits-of-string-after-convert) |
+## Hash Table
+|  |
+| ------- |
+| [0906-walking-robot-simulation](https://github.com/Kunal-5402/Problem-Solving/tree/master/0906-walking-robot-simulation) |
 <!---LeetCode Topics End-->
