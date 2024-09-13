@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0624-maximum-distance-in-arrays](https://github.com/Kunal-5402/Problem-Solving/tree/master/0624-maximum-distance-in-arrays) |
 | [0906-walking-robot-simulation](https://github.com/Kunal-5402/Problem-Solving/tree/master/0906-walking-robot-simulation) |
 | [1325-path-with-maximum-probability](https://github.com/Kunal-5402/Problem-Solving/tree/master/1325-path-with-maximum-probability) |
+| [1435-xor-queries-of-a-subarray](https://github.com/Kunal-5402/Problem-Solving/tree/master/1435-xor-queries-of-a-subarray) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Kunal-5402/Problem-Solving/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/Kunal-5402/Problem-Solving/tree/master/2132-convert-1d-array-into-2d-array) |
 ## Greedy
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [1435-xor-queries-of-a-subarray](https://github.com/Kunal-5402/Problem-Solving/tree/master/1435-xor-queries-of-a-subarray) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/Kunal-5402/Problem-Solving/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 ## String
 |  |
@@ -71,4 +73,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0906-walking-robot-simulation](https://github.com/Kunal-5402/Problem-Solving/tree/master/0906-walking-robot-simulation) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1435-xor-queries-of-a-subarray](https://github.com/Kunal-5402/Problem-Solving/tree/master/1435-xor-queries-of-a-subarray) |
 <!---LeetCode Topics End-->
