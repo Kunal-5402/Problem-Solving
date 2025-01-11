@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0624-maximum-distance-in-arrays](https://github.com/Kunal-5402/Problem-Solving/tree/master/0624-maximum-distance-in-arrays) |
+| [1502-construct-k-palindrome-strings](https://github.com/Kunal-5402/Problem-Solving/tree/master/1502-construct-k-palindrome-strings) |
 ## Stack
 |  |
 | ------- |
@@ -69,12 +70,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Kunal-5402/Problem-Solving/tree/master/0920-uncommon-words-from-two-sentences) |
+| [1502-construct-k-palindrome-strings](https://github.com/Kunal-5402/Problem-Solving/tree/master/1502-construct-k-palindrome-strings) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Kunal-5402/Problem-Solving/tree/master/2076-sum-of-digits-of-string-after-convert) |
 ## Hash Table
 |  |
 | ------- |
 | [0906-walking-robot-simulation](https://github.com/Kunal-5402/Problem-Solving/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Kunal-5402/Problem-Solving/tree/master/0920-uncommon-words-from-two-sentences) |
+| [1502-construct-k-palindrome-strings](https://github.com/Kunal-5402/Problem-Solving/tree/master/1502-construct-k-palindrome-strings) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -83,4 +86,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0920-uncommon-words-from-two-sentences](https://github.com/Kunal-5402/Problem-Solving/tree/master/0920-uncommon-words-from-two-sentences) |
+| [1502-construct-k-palindrome-strings](https://github.com/Kunal-5402/Problem-Solving/tree/master/1502-construct-k-palindrome-strings) |
 <!---LeetCode Topics End-->
